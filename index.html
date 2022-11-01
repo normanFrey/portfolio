@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Norman Frey | Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="app__controls">
+        <div class="switches">
+          <div id="toggle-theme" class="toggle-theme">
+            <i id="toggle-icon" class="fa-solid fa-moon toggle-theme__icon"></i>
+            <input type="hidden" id="flag-theme" value="1" />
+            <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+          </div>
+        </div>
+        <div id="flags" class="flags">
+          <div class="flags__item flags__off" data-language="es">
+            <img src="./assets/es.svg" alt="" class="flags__img" />
+          </div>
+          <div class="flags__item flags__off" data-language="it">
+            <img src="./assets/it.svg" alt="" class="flags__img" />
+          </div>
+          <div class="flags__item" data-language="en">
+            <img src="./assets/gb.svg" alt="" class="flags__img" />
+          </div>
+        </div>
+        <div id="toggle-colors" class="colors">
+          <div
+            data-color="hsl(218, 100%, 67%)"
+            class="colors__item colors__item--blue"
+          ></div>
+          <div
+            data-color="hsl(119, 72%, 51%)"
+            class="colors__item colors__item--green"
+          ></div>
+          <div
+            data-color="hsl(276, 100%, 65%)"
+            class="colors__item colors__item--purple"
+          ></div>
+          <div
+            data-color="hsl(25, 90%, 55%)"
+            class="colors__item colors__item--orange"
+          ></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__img-container">
+            <img src="./assets/profile.jpg" alt="" class="card__img" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Norman Frey</h2>
+            <p class="card__subtitle">Web Developer - IT Analyst - DBA</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:normanfreydev@monkeyfrey.com"
+                >Send me an e-mail</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fa-solid fa-mug-hot icon"></i>
+              <a href="#footer">Let's talk</a>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
+              tenetur nam veniam, commodi dolor nesciunt, illo voluptatem a
+              corporis ab quaerat obcaecati. Amet, voluptatum odio. Voluptatem
+              sapiente tenetur quis omnis natus alias, illo quidem architecto
+              neque aliquid nemo. Modi sed id, nulla iure praesentium aperiam
+              molestiae facere ab earum rem!
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experience</h2>
+          <div class="experience">
+            <img
+              src="./assets/monkeylogo.png"
+              alt=""
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">feb 2017 - Current</p>
+              <h3 class="experience__job">Front End Developer</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+                hic ad natus sit cumque porro nobis molestias necessitatibus aut
+                nesciunt quae adipisci fuga fugit quis fugiat praesentium, alias
+                dolor. Suscipit.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img
+              src="./assets/monkeylogo.png"
+              alt=""
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">feb 2017 - Current</p>
+              <h3 class="experience__job">Front End Developer</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+                hic ad natus sit cumque porro nobis molestias necessitatibus aut
+                nesciunt quae adipisci fuga fugit quis fugiat praesentium, alias
+                dolor. Suscipit.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img
+              src="./assets/monkeylogo.png"
+              alt=""
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">feb 2017 - Current</p>
+              <h3 class="experience__job">Front End Developer</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+                hic ad natus sit cumque porro nobis molestias necessitatibus aut
+                nesciunt quae adipisci fuga fugit quis fugiat praesentium, alias
+                dolor. Suscipit.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card col--1024-1">
+          <h2 class="card__title">Frontend</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Javascript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card col--1024-2">
+          <h2 class="card__title">Backend</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">SQL</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySQL</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card col--1024-3">
+          <h2 class="card__title">Design</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <h2 class="card__title">My job</h2>
+          <div class="card__img-container">
+            <img
+              src="./assets/orianatarot.jpg"
+              alt=""
+              class="card__img--project"
+            />
+          </div>
+          <div class="card__description-container">
+            <h2 class="card__title">
+              Website: <strong>orianatarot.com</strong>
+            </h2>
+            <p class="card__text">
+              Website made without frameworks using the last technology and
+              techniques with pure HTML, CSS and JavaScript.
+            </p>
+            <div class="tech__container">
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(227,79,38)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(239,101,42)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 151,208 146,150 226,150 226,94 84,94 99,265 226,265 z M 226,355 L162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L226,150 362,150 367,94 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">HTML</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(12,115,184)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(48,169,220)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 94,208 99,265 226,265 z M 226,94 L 84,94 89,150 226,150 z M 226,355 L 102,322 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 367,94 226,94 226,150 306,150 300,208 226,208 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">CSS</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(229,162,40)"
+                    d="M 0,0 L 451,0 410,460 225,512 41,460"
+                  />
+                  <path
+                    fill="RGB(241,191,38)"
+                    d="M 226,472 L375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,94 L 113,94 102,265 226,265 226,208 160,208 165,150 226,150 z M 226,355 L 162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L 339,94 357,180 301,180 293,150 226,150 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">Javascript</small>
+              </div>
+              <div class="tech__container-item">
+                <img
+                  class="resp-icon"
+                  src="responsive-light.png"
+                  alt=""
+                  id="ver"
+                />
+                <small class="tech__container-legend">Responsive</small>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://www.orianatarot.com"
+                class="button button--primary"
+                target="_blank"
+                >Visit website</a
+              >
+            </div>
+          </div>
+
+          <div class="card__img-container">
+            <img
+              src="./assets/anamariamanzano.jpg"
+              alt=""
+              class="card__img--project card__img--noscroll"
+            />
+          </div>
+          <div class="card__description-container">
+            <h2 class="card__title">
+              Website: <strong>anamariamanzano.com</strong>
+            </h2>
+            <p class="card__text">
+              Website made without frameworks using the last technology and
+              techniques with HTML, CSS and JavaScript.
+            </p>
+            <div class="tech__container">
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(227,79,38)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(239,101,42)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 151,208 146,150 226,150 226,94 84,94 99,265 226,265 z M 226,355 L162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L226,150 362,150 367,94 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">HTML</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(12,115,184)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(48,169,220)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 94,208 99,265 226,265 z M 226,94 L 84,94 89,150 226,150 z M 226,355 L 102,322 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 367,94 226,94 226,150 306,150 300,208 226,208 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">CSS</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(229,162,40)"
+                    d="M 0,0 L 451,0 410,460 225,512 41,460"
+                  />
+                  <path
+                    fill="RGB(241,191,38)"
+                    d="M 226,472 L375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,94 L 113,94 102,265 226,265 226,208 160,208 165,150 226,150 z M 226,355 L 162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L 339,94 357,180 301,180 293,150 226,150 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">Javascript</small>
+              </div>
+              <div class="tech__container-item">
+                <img src="./assets/responsive-light.png" alt="" id="ver1" />
+                <small class="tech__container-legend">Responsive</small>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://www.anamariamanzano.com"
+                class="button button--primary"
+                target="_blank"
+                >Visit website</a
+              >
+            </div>
+          </div>
+          <div class="card__img-container">
+            <img
+              src="./assets/psicosecretos.jpg"
+              alt=""
+              class="card__img--project card__img--noscroll"
+            />
+          </div>
+          <div class="card__description-container">
+            <h2 class="card__title">
+              Website: <strong>psicosecretos.com</strong>
+            </h2>
+            <p class="card__text">
+              Website made without frameworks using the last technology and
+              techniques with HTML, CSS and JavaScript.
+            </p>
+            <div class="tech__container">
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(227,79,38)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(239,101,42)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 151,208 146,150 226,150 226,94 84,94 99,265 226,265 z M 226,355 L162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L226,150 362,150 367,94 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">HTML</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(12,115,184)"
+                    d="M 41,460 L 0,0 451,0 410,460 225,512"
+                  />
+                  <path
+                    fill="RGB(48,169,220)"
+                    d="M 226,472 L 375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,208 L 94,208 99,265 226,265 z M 226,94 L 84,94 89,150 226,150 z M 226,355 L 102,322 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 367,94 226,94 226,150 306,150 300,208 226,208 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">CSS</small>
+              </div>
+              <div class="tech__container-item">
+                <svg viewBox="0 0 452 520">
+                  <path
+                    fill="RGB(229,162,40)"
+                    d="M 0,0 L 451,0 410,460 225,512 41,460"
+                  />
+                  <path
+                    fill="RGB(241,191,38)"
+                    d="M 226,472 L375,431 410,37 226,37"
+                  />
+                  <path
+                    fill="RGB(236,237,238)"
+                    d="M 226,94 L 113,94 102,265 226,265 226,208 160,208 165,150 226,150 z M 226,355 L 162,338 158,293 102,293 109,382 226,414 z"
+                  />
+                  <path
+                    fill="RGB(255,255,255)"
+                    d="M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L 339,94 357,180 301,180 293,150 226,150 z"
+                  />
+                </svg>
+                <small class="tech__container-legend">Javascript</small>
+              </div>
+              <div class="tech__container-item">
+                <img src="./assets/responsive-light.png" alt="" id="ver2" />
+                <small class="tech__container-legend">Responsive</small>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://www.psicosecretos.com"
+                class="button button--primary"
+                target="_blank"
+                >Visit website</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="footer__container">
+          <div class="footer__social--container">
+            <a href="https://www.linkedin.com/in/normanfrey/" target="_blank"
+              ><i class="fa-brands fa-linkedin footer__social--icon"></i
+            ></a>
+            <i class="fa-brands fa-square-github footer__social--icon"></i>
+            <i class="fa-brands fa-square-facebook footer__social--icon"></i>
+            <i class="fa-brands fa-square-instagram footer__social--icon"></i>
+          </div>
+          <div class="footer__container--legend">
+            <p class="footer__legend--text">
+              Copyright &copy monkeyfrey - 2023
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
